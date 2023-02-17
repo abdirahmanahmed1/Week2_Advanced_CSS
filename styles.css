@@ -1,1 +1,213 @@
 /* Paste your css code here */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+/* Paste your css code here */
+.header {
+    text-align: center;
+    padding-top: 20px;
+    background-color: #454f6f;
+    color: white;
+    line-height: 40px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin-right: 0px;
+   
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    margin: 60px;
+}
+
+.taste {
+    text-align: center;
+    background-color: #e6834c;
+    color: white;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.h2 {
+    text-align: center;
+    justify-content: center;
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-bottom: 40px;
+    width: 45%;
+    font-size: 1.4rem;
+}
+
+.taste img {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 50%;
+    width: 45%;
+}
+
+.about {
+    text-align: center;
+    background-color: #f5f5f5;
+    margin: auto;
+    padding-bottom: 20px;
+    text-align: justify;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 90%;
+    margin-top: 15px;
+
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.food {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.images {
+    width: 30%;
+    
+}
+
+.food img {
+    width: 100%;
+    height: auto;
+    border-radius: 7%;
+}
+
+.form {
+    text-align: center;
+    background-color: azure;
+    line-height: 50px;
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.form input {
+    width: 300px;
+    height: 30px;
+    margin-top: 0px;
+    border: 1px #f5f5f5 outline;
+
+}
+
+.form button {
+    width: 315px;
+    height: 40px;
+    background-color: #e6834c;
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 30px;
+
+
+}
+
+.footer {
+    text-align: center;
+    padding-top: 20px;
+    background-color: #454f6f;
+    color: white;
+    line-height: 30px;
+    padding-bottom: 20px;
+    margin: 0px;
+    margin-top: ;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+
+}
+
+.p {
+    text-align: center;
+    background-color: #e6834c;
+    font-size: 1.3rem;
+}
+
+/* This is a single-line comment */
+
+@media(max-width:635px) {
+    /* This is a single-line comment */
+    .header{
+        background: 100%;
+        background-color: #454f6f;
+        margin-right: opx;
+        flex-wrap: nowrap;
+    }
+   
+
+    .taste {
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .h2 {
+        text-align: center;
+        width: 70%;
+    }
+
+    .taste img {
+        margin-left: 50px;
+        width: 80%;
+    }
+
+    .about {
+        text-align: center;
+        width: 90%;
+        margin-right: 40px;
+        margin-left: 40px;
+
+    }
+
+    .about p {
+        text-align: justify;
+    }
+
+    .food {
+        flex-direction: column;
+
+    }
+
+    .images {
+        width: 100%;
+        margin-left: 40px;
+        margin-bottom: 20px
+    }
+
+    .images img {
+        border-radius: 7%;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .form {
+        justify-content: center;
+        width: 100%;
+        margin: 0px;
+    }
+
+    
+
+    .p {
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .header{
+        width: 100%;
+    }
+}
